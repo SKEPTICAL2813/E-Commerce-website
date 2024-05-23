@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Shrikhand&family=Syncopate:wght@400;700&family=Unbounded:wght@200..900&family=VT323&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather',sans-serif;
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color:black;
+
+}
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color:black;
+
+}
+h4{
+    font-size: 20px;
+    color:black;
+
+}
+h3{
+    color: black;
+}
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+p{
+    font-size: 16px;
+    color:#750000;
+    margin: 15px 0 20px 0;
+}
+a{
+    text-decoration: none;
+}
+.section-p1{
+    padding:40px 80px;
+}
+.section-m1{
+    margin:40px 0;
+}
+body{
+    width:100%;
+    
+}
+.logo{
+ width: 120px;
+ padding-left: 30px;
+ padding-top: 0px;
+}
+    
+#header{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px,80px;
+     background-color:white;
+     height: 100px;
+     box-shadow: 0 5px 15px rgba(0,0, 0,0.06);
+     z-index: 999;
+     position: sticky;
+     top: 0;
+     left: 0;
+}
+
+#navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#navbar li{
+    list-style: none;
+    padding:0 15px;
+    ;
+    }
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:	black;
+    transition:0.2s ease;
+}
+#navbar li a:hover,
+#navbar li a:active{
+    color:#FB4570;
+}
+#navbar li .cart:hover{
+    color: black;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.searchbar {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+    background-color:#FF92A5;
+    border: none;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.search-button:hover {
+    background-color:#FF647F;
+}
+
+.login-button {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
+    text-align: center;
+    line-height: 1.2;
+}
+  
+.login-button:hover,
+.login-button:active {
+    background-color:black;
+    color: white;
+}
+
+#landingpage1{
+    background-image: url("img/pawel-czerwinski-keVhq8uU23M-unsplash.jpg");
+    height:100vh;
+    background-size:cover;
+    background-position: center bottom;
+    object-fit:fill;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 35px;
+    align-items: center;
+    
+}
+
+#landingpage1 h4 a,
+#landingpage1 h2 a,
+#landingpage1 h1 a,
+#landingpage1 p a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+
+#landingpage1 h4{
+    padding-bottom: 15px;
+   
+}
+
+#landingpage1 h1{
+   color:#D44A45;
+  
+}
+
+#landingpage1 button{
+   
+    text-decoration: none;
+    color:white; 
+    background-color:transparent;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+
+}
+#landingpage1 .shopbutton:hover{
+    background-color: #750000;
+    color: white;
+    border: 3px solid #750000;
+}
+
+#featured1{
+    text-align: center;
+
+}
+#featured1 .pro-container{
+    display:flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+}
+
+
+.product-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+ }
+
+#featured1 .pro{
+    width:23%;
+    min-width :250px;
+    padding:10px 12px;
+    border :1px solid rgb(173, 172, 188);
+    cursor: pointer;
+    background-image: url(img/Free\ \ Pink\ and\ Yellow\ Blank\ background\ Vector\ Art.jpeg);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    align-items: center;
+    position: relative;
+
+}
+#featured1 .pro:hover{
+    box-shadow:  10px 10px 10px grey;
+}
+#featured1 .pro img{
+    width: 100%;
+   
+   
+}
+#featured1 .pro .des{
+    text-align:center;
+    padding: 10px 0;
+
+}
+#featured1 .pro .des span{
+    color:black;
+    font-size:  15px;
+
+}
+#featured1 .pro .des h5{
+    padding-top: 7px;
+    color: black;
+    font-size: 14px;
+}
+
+#banner1 .banner-box{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(img/Colorful\ Gradient\ Background\ -\ Stock\ Motion\ Graphics\ _\ Motion\ Array.jpeg);
+    width:520px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+
+
+}
+#banner1 .banner-box2{
+    background-image: url(img/Free\ Photo\ _\ Blurred\ pop\ abstract\ background\ -\ pink.jpeg);
+}
+#banner1{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+#banner1 h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+#banner1 h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+#banner1 h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+#banner1 span{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color:black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+
+}
+
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color:white;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
+}
+
+#banner1 .banner-box:hover button{
+    background:#750000;
+    border: 1px solid#750000;
+}
+.coupons{ 
+    background-image: url(img/Free\ Vector\ _\ Gradient\ trendy\ background.jpeg);
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    width:auto;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    margin: 30px;
+}
+    
+.coupons h3{
+    color:#750000;
+}
+.coups {
+    width: 100%;
+    height: 100px; /* Adjust as needed */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .coup-box, .coup-box2, .coup-box3 {
+    background-image: url(img/Colorful\ Gradient\ Background\ -\ Stock\ Motion\ Graphics\ _\ Motion\ Array.jpeg);
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: moveCoupons 27s linear infinite;
+    left: calc(-100% - 20px); /* Initial position */
+  }
+  
+  
+ 
