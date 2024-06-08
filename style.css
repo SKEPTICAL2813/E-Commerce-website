@@ -46,6 +46,8 @@ a{
 body{
     width:100%;
     
+    
+    
 }
 .logo{
  width: 120px;
@@ -88,7 +90,8 @@ body{
 }
 #navbar li a:hover,
 #navbar li a:active{
-    color:#FB4570;
+color:#0067B3;
+    
 }
 #navbar li .cart:hover{
     color: black;
@@ -107,7 +110,7 @@ body{
 }
 
 .search-button {
-    background-color:#FF92A5;
+    background-color:#0000A3;
     border: none;
     color: #fff;
     border-radius: 0 5px 5px 0;
@@ -116,7 +119,7 @@ body{
 }
 
 .search-button:hover {
-    background-color:#FF647F;
+    background-color:#0067B3;
 }
 
 .login-button {
@@ -137,7 +140,7 @@ body{
 }
 
 #landingpage1{
-    background-image: url("img/pawel-czerwinski-keVhq8uU23M-unsplash.jpg");
+    background-image: url("img/carly-osborn-LKRRLAKgeO4-unsplash.jpg");
     height:100vh;
     background-size:cover;
     background-position: center bottom;
@@ -158,32 +161,40 @@ body{
     color: inherit; 
 }
 
-
+#landingpage1 p{
+    color:#56382D;
+}
 #landingpage1 h4{
     padding-bottom: 15px;
+    color: black;
    
 }
 
 #landingpage1 h1{
-   color:#D44A45;
+   color :yellow;
   
 }
+#landingpage1 h2{
+    color :yellow;
+   
+ }
+
 
 #landingpage1 button{
    
     text-decoration: none;
-    color:white; 
+    color:#050A30; 
     background-color:transparent;
-    border: 1px solid white;
+    border: 1px solid black;
     padding: 10px;
     border-radius: 5px;
     transition: 0.2s ease-in-out;
 
 }
 #landingpage1 .shopbutton:hover{
-    background-color: #750000;
+    background-color: #68BBE3;
     color: white;
-    border: 3px solid #750000;
+    border: 3px solid #68BBE3;
 }
 
 #featured1{
@@ -207,9 +218,9 @@ body{
     width:23%;
     min-width :250px;
     padding:10px 12px;
-    border :1px solid rgb(173, 172, 188);
+    border :1px solid bisque (173, 172, 188);
     cursor: pointer;
-    background-image: url(img/Free\ \ Pink\ and\ Yellow\ Blank\ background\ Vector\ Art.jpeg);
+    background-color: beige;
     margin: 15px 0;
     transition: 0.2s ease;
     align-items: center;
@@ -246,7 +257,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(img/Colorful\ Gradient\ Background\ -\ Stock\ Motion\ Graphics\ _\ Motion\ Array.jpeg);
+    background-image: url(img/aliya-amangeldi-HDx3FKhLrTM-unsplash.jpg);
     width:520px;
     height: 50vh;
     background-size: cover;
@@ -255,7 +266,7 @@ body{
 
 }
 #banner1 .banner-box2{
-    background-image: url(img/Free\ Photo\ _\ Blurred\ pop\ abstract\ background\ -\ pink.jpeg);
+    background-image: url(img/natali-hordiiuk--DknVr2md2E-unsplash.jpg);
 }
 #banner1{
     display: flex;
@@ -313,44 +324,301 @@ button.white{
 }
 
 #banner1 .banner-box:hover button{
-    background:#750000;
-    border: 1px solid#750000;
+    background:#FF647F;
+    border: 1px solid #FF647F;
 }
-.coupons{ 
-    background-image: url(img/Free\ Vector\ _\ Gradient\ trendy\ background.jpeg);
-    display: flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    width:auto;
-    height: 30vh;
-    background-size: cover;
-    background-position: center;
-    margin: 30px;
+
+
+.coupons {
+  background-color: #CCD7AC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  position: relative;
+  padding: 20px;
+  
+  
+  
 }
-    
-.coupons h3{
-    color:#750000;
+
+.coupons::after, .coupons::before {
+  position: absolute;
+  content: "";
+  height: 80px;
+  border-radius: 50px;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  width: 40px;
 }
+
+.coupons::after {
+  right: -20px;
+}
+
+.coupons::before {
+  left: -20px;
+}
+
+.coupons h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.coupons p {
+  color: #565656;
+  margin-bottom: 10px;
+}
+.coupons h1{
+    color: #ccc;
+}
+
 .coups {
     width: 100%;
-    height: 100px; /* Adjust as needed */
+    height: 100px; 
     overflow: hidden;
     position: relative;
   }
-  
-  .coup-box, .coup-box2, .coup-box3 {
-    background-image: url(img/Colorful\ Gradient\ Background\ -\ Stock\ Motion\ Graphics\ _\ Motion\ Array.jpeg);
-    padding: 10px 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    animation: moveCoupons 27s linear infinite;
-    left: calc(-100% - 20px); /* Initial position */
+
+
+  #banner4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    margin-bottom: 40px;
   }
   
+  .coup-box, .coup-box2, .coup-box3 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 20px;
+    border-radius: 15px;
+    animation: slide-in-out 7s linear infinite;
+    
+   
+  }
   
- 
+  .coup-box::after, .coup-box::before,
+  .coup-box2::after, .coup-box2::before,
+  .coup-box3::after, .coup-box3::before {
+    position: absolute;
+    content: "";
+    height: 40px;
+    border-radius: 40px;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    width: 40px;
+  }
+  
+  .coup-box::after, .coup-box2::after, .coup-box3::after {
+    right: -20px;
+  }
+  
+  .coup-box::before, .coup-box2::before, .coup-box3::before {
+    left: -20px;
+  }
+  
+  .coup-box h3, .coup-box2 h3, .coup-box3 h3 {
+    color: yellow;
+    margin-bottom: 10px;
+  }
+.coup-box span, .coup-box2 span, .coup-box3 span{
+color: white;
+  }
+.coup-box{
+    background-image: url(img/isi-parente-RmxF6X_pEqU-unsplash.jpg);
+
+}
+.coup-box2{
+    background-image: url(img/liana-mikah-4RTAF3Z-0zM-unsplash.jpg);
+    
+}
+.coup-box3{
+    background-image: url(img/amy-peryam--qZ2AKXP2WU-unsplash.jpg);
+}
+
+@keyframes slide-in-out {
+    0% {
+        transform: translateX(-100%);
+    }
+    33% {
+        transform: translateX(0);
+    }
+    66% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.coupon:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.coupon:nth-child(2) {
+    animation-delay: 3s;
+}
+
+.coupon:nth-child(3) {
+    animation-delay: 6s;
+}
+#newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background-image: url(img/marvin-van-beek-mMyvF0R7e38-unsplash.jpg);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 1100px;
+    margin: 50px auto;
+    background-size:cover;
+    
+    object-fit:fill;
+}
+
+.newstext h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+
+.newstext p {
+    font-size: 16px;
+    color:#C1E1C1;
+}
+
+.newstext p span {
+    color: yellow;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 600px;
+    
+
+}
+
+.form input[type="text"] {
+    flex: 1;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+}
+
+.form button {
+    background-color: black;
+    
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0 25px 25px 0;
+}
+
+.form button:hover {
+    background-color: yellow;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 40px 20px;
+    color: #333;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 200px;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.newsletter {
+    flex: 2;
+}
+
+.newsletter p {
+    margin-bottom: 15px;
+}
+
+.newsletter a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.newsletter a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+
